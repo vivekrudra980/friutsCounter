@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  background-color: #ffd569;
+  padding: 30px;
+}
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 55px;
+}
+.count {
+  color: #ffd569;
+}
+.images-container {
+  display: flex;
+  justify-content: space-around;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 40px;
+}
+.image {
+  width: 25vw;
+}
+.button {
+  width: 132px;
+  height: 36px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
